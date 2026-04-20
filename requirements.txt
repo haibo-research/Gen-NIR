@@ -1,0 +1,9 @@
+# Deep Learning & Scientific Computing Core
+torch>=1.9.0
+numpy
+
+# ODE Solvers (for Neural Diffeomorphic Flow)
+torchdiffeq
+
+# Boundary Element Method (for 3D EIT Physics Solver)
+bempp-cl

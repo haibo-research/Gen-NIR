@@ -1,10 +1,10 @@
 # Generative Prior-Guided Neural Interface Reconstruction for 3D Electrical Impedance Tomography
 
-![example](https://github.com/haibo-research/DiLO/blob/main/Utils/latent_space.png) 
+![example](https://github.com/haibo-research/Gen-NIR/blob/main/Utils/latent_space.png) 
 
 ## Abstract
 
-We present a transformative **“solver-in-the-loop”** framework that bridges this divide by coupling a pre-trained 3D generative prior with a rigorous **Boundary Integral Equation (BIE)** solver. Our architecture enforces the governing elliptic PDE as a **hard constraint** at every optimization step, ensuring strict physical consistency. Simultaneously, we navigate a compact latent manifold of plausible geometries learned by a differentiable **Neural Diffeomorphic Flow (NDF)**, effectively regularizing the ill-posed problem through data-driven priors rather than heuristic smoothing. By propagating adjoint shape derivatives directly through the neural decoder, we achieve fast, stable convergence with dramatically reduced degrees of freedom, establishing a robust new paradigm for physics-constrained geometric discovery.
+We present a transformative **“solver-in-the-loop”** framework that bridges this divide by coupling a pre-trained 3D generative prior with a rigorous **Boundary Integral Equation (BIE)** solver. Our architecture enforces the governing elliptic PDE as a **hard constraint** at every optimization step, ensuring strict physical consistency. Simultaneously, we navigate a compact latent manifold of plausible geometries learned by a differentiable Neural Diffeomorphic Flow (NDF), effectively regularizing the ill-posed problem through data-driven priors rather than heuristic smoothing. By propagating adjoint shape derivatives directly through the neural decoder, we achieve fast, stable convergence with dramatically reduced degrees of freedom, establishing a robust new paradigm for physics-constrained geometric discovery.
 
 ## Getting Started
 
