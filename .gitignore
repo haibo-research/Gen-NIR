@@ -7,3 +7,10 @@ pretrained/
 
 # 忽略特定文件
 plot.py
+
+train/train_deep_sdf.py
+train/train_design.py
+
+optimize/EIT_deepsdf.py
+optimize/EIT_KV.py
+optimize/EIT_point.py
