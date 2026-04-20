@@ -45,11 +45,11 @@ This script initiates the solver-in-the-loop optimization process, adjusting the
 <br /> 
 
 ## Key Features
-Physics as Hard Constraint: Integration of a BIE solver ensures every optimization step strictly adheres to the governing PDEs.
+**Physics as Hard Constraint**: Integration of a BIE solver ensures every optimization step strictly adheres to the governing PDEs.
 
-Generative Prior Regularization: Leverages NDF to handle complex topological changes and navigate a compact manifold of plausible geometries.
+**Generative Prior Regularization**: Leverages NDF to handle complex topological changes and navigate a compact manifold of plausible geometries.
 
-Differentiable Pipeline: End-to-end gradient backpropagation achieved through adjoint shape derivatives.
+**Differentiable Pipeline**: End-to-end gradient backpropagation achieved through adjoint shape derivatives.
 <br /> 
 
 ## Citation
