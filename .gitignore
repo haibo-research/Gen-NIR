@@ -1,0 +1,9 @@
+# 忽略特定的文件夾
+CEM/
+demo/
+logs/
+old/
+pretrained/
+
+# 忽略特定文件
+plot.py
